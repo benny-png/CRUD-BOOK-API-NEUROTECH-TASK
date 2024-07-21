@@ -120,4 +120,21 @@ curl -X PUT "http://localhost:8000/books/{book_id}" -F "file=@path/to/file" -F "
 ```sh
 curl -X GET "http://localhost:8000/books/download/{book_id}" --output downloaded_file
 ```
+Here’s a short README section for the DELETE endpoint:
+
+---
+
+## Delete a Book
+
+- **Endpoint**: `DELETE /books/{book_id}`
+
+```sh
+curl -X DELETE "http://localhost:8000/books/{book_id}"
+```
+
+- **Description**: Remove a book from the database by its ID.
+
+### Parameters
+
+- **book_id** (path parameter): The ID of the book to delete.
 
