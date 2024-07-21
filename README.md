@@ -54,7 +54,7 @@ To start the FastAPI server, use:
 uvicorn src.main.app:app --reload
 ```
 
-The API will be available at base URL `http://localhost:8000`.
+The API will be available at base URL `http://localhost:8000/books`.
 
 ## API Endpoints
 
