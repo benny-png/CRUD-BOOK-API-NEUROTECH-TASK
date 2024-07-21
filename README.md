@@ -51,10 +51,10 @@ This is a FastAPI application for managing books, including CRUD operations and 
 To start the FastAPI server, use:
 
 ```sh
-uvicorn src.main:app --reload
+uvicorn src.main.app:app --reload
 ```
 
-The API will be available at `http://localhost:8000`.
+The API will be available at base URL `http://localhost:8000`.
 
 ## API Endpoints
 
