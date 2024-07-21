@@ -60,7 +60,7 @@ The API will be available at base URL `http://localhost:8000`.
 
 ### Create a Book
 
-- **Endpoint**: `POST /create/`
+- **Endpoint**: `POST /books/create/`
 - **Description**: Upload a new book with a file, title, author, and year.
 - **Form Data**:
   - `file`: The file to upload.
@@ -70,7 +70,7 @@ The API will be available at base URL `http://localhost:8000`.
 
 ### Read Books
 
-- **Endpoint**: `GET /`
+- **Endpoint**: `GET /books/`
 - **Description**: Retrieve a list of books.
 - **Query Parameters**:
   - `skip`: Number of items to skip.
@@ -78,12 +78,12 @@ The API will be available at base URL `http://localhost:8000`.
 
 ### Read a Specific Book
 
-- **Endpoint**: `GET /{book_id}`
+- **Endpoint**: `GET /books/{book_id}`
 - **Description**: Retrieve a book by its ID.
 
 ### Update a Book
 
-- **Endpoint**: `PUT /{book_id}`
+- **Endpoint**: `PUT /books/{book_id}`
 - **Description**: Update the details of an existing book.
 - **Form Data**:
   - `title`: The updated book title.
@@ -93,12 +93,12 @@ The API will be available at base URL `http://localhost:8000`.
 
 ### Delete a Book
 
-- **Endpoint**: `DELETE /{book_id}`
+- **Endpoint**: `DELETE /books/{book_id}`
 - **Description**: Delete a book by its ID.
 
 ### Download a Book File
 
-- **Endpoint**: `GET /download/{book_id}`
+- **Endpoint**: `GET /books/download/{book_id}`
 - **Description**: Download the file associated with a book.
 
 ## Example Requests
