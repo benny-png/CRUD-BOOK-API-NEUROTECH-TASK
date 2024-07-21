@@ -106,18 +106,18 @@ The API will be available at `http://localhost:8000`.
 **Create a Book:**
 
 ```sh
-curl -X POST "http://localhost:8000/create/" -F "file=@path/to/file" -F "title=Book Title" -F "author=Author Name" -F "year=2024"
+curl -X POST "http://localhost:8000/books/create/" -F "file=@path/to/file" -F "title=Book Title" -F "author=Author Name" -F "year=2024"
 ```
 
 **Update a Book:**
 
 ```sh
-curl -X PUT "http://localhost:8000/{book_id}" -F "file=@path/to/file" -F "title=Updated Title" -F "author=Updated Author" -F "year=2025"
+curl -X PUT "http://localhost:8000/books/{book_id}" -F "file=@path/to/file" -F "title=Updated Title" -F "author=Updated Author" -F "year=2025"
 ```
 
 **Download a Book File:**
 
 ```sh
-curl -X GET "http://localhost:8000/download/{book_id}" --output downloaded_file
+curl -X GET "http://localhost:8000/books/download/{book_id}" --output downloaded_file
 ```
 
