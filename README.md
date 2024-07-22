@@ -23,7 +23,7 @@ This is a FastAPI application for managing books, including CRUD operations and 
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/your-repo/book-management-api.git
+   git clone https://github.com/benny-png/CRUD-BOOK-API-NEUROTECH-TASK.git
    cd book-management-api
    ```
 
