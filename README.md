@@ -24,7 +24,7 @@ This is a FastAPI application for managing books, including CRUD operations and 
 
    ```sh
    git clone https://github.com/benny-png/CRUD-BOOK-API-NEUROTECH-TASK.git
-   cd book-management-api
+   cd CRUD-BOOK-API-NEUROTECH-TASK
    ```
 
 2. Create a virtual environment and activate it:
